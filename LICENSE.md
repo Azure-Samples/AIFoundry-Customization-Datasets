@@ -1,4 +1,6 @@
     MIT License
+    
+    Azure AI Foundry sample customization datasets
 
     Copyright (c) Microsoft Corporation.
 
