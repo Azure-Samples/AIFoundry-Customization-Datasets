@@ -1,6 +1,6 @@
 # Notice
 
-This is a sample training data file. This was curated using [this](https://huggingface.co/datasets/openai/gsm8k) as the reference dataset.
+This is a sample validation data file. This was curated using [this](https://huggingface.co/datasets/openai/gsm8k) as the reference dataset.
 
 ## Dataset Summary
 
