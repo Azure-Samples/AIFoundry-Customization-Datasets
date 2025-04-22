@@ -1,57 +1,17 @@
-# Project Name
+# Project
 
-(short, 1-3 sentenced, description of the project)
+Azure AI Foundry customization sample datasets
 
-## Features
+## What are these datasets?
 
-This project framework provides the following features:
+This repository contains a collection of sample datasets that can be used to test and validate various customization techniques on the [Azure AI Foundry](http://ai.azure.com/). These are curated datasets created from various public HuggingFace datasets. These datasets have been created by picking top few items from the HuggingFace samples for various kinds of data: chat, multimodal, etc.
 
-* Feature 1
-* Feature 2
-* ...
+## Purpose of these datasets
 
-## Getting Started
+- These datasets are meant to be used as a **reference** to understand how to prepare training/validation data to run finetuning and other customization jobs on the [Azure AI Foundry](http://ai.azure.com/). Do not consider these samples as complete datasets for production use.
+- These datasets can be used for experimental runs, and to check the end-to-end flows while running customization jobs on the [Azure AI Foundry](http://ai.azure.com/). Note, that any training jobs can incur costs on the subscription.
+- The datasets work best for OpenAI models, and may require adjustments for other model families like Llama, Mistral etc.
 
-### Prerequisites
+## Trademarks
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft’s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
